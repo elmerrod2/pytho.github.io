@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Virtual Assistant</title>
+</head>
+<body>
+    <h1>Math Virtual Assistant</h1>
+    <p>Hello! My name is pytobot and I am your math virtual assistant. My favorite sport is petanque and my favorite animal is the tardigrade. I would like to know about yours, but I won't ask for respect.</p>
+    <p>I would like to meet you first! What is your name?</p>
+    <input type="text" id="name" placeholder="Your name">
+    <button onclick="greet()">Submit</button>
+
+    <script>
+        function greet() {
+            var name = document.getElementById('name').value;
+            alert("A pleasure to meet you, " + name + "!");
+            // Aquí puedes agregar la lógica para mostrar los problemas de matemáticas y procesar las respuestas del usuario.
+        }
+    </script>
+</body>
+</html>
